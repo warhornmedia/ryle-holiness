@@ -1,10 +1,12 @@
-# Book Template
+# Holiness
+
+## By J. C. Ryle
 
 ## Warhorn Classics
 
-## 2020
+## 1887?
 
-This book is a template for starting new Warhorn Classics book projects. It also contains some brief instructions for how to get started.
+Missing description
 
 Available for your reading pleasure here:
-https://warhornmedia.github.io/warhorn-classics-book-template
+https://warhornmedia.github.io/ryle-holiness
