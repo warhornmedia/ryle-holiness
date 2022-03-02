@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Holiness</title>
   <meta name="description" content="missing description" />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Holiness" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://warhornmedia.github.io/ryle-holiness/" />
-  <meta property="og:image" content="https://warhornmedia.github.io/ryle-holiness//cover.jpg" />
+  <meta property="og:image" content="https://warhornmedia.github.io/ryle-holiness/cover.jpg" />
   <meta property="og:description" content="missing description" />
   
 
@@ -19,7 +19,7 @@
   <meta name="twitter:title" content="Holiness" />
   
   <meta name="twitter:description" content="missing description" />
-  <meta name="twitter:image" content="https://warhornmedia.github.io/ryle-holiness//cover.jpg" />
+  <meta name="twitter:image" content="https://warhornmedia.github.io/ryle-holiness/cover.jpg" />
 
 <meta name="author" content="J. C. Ryle" />
 
@@ -32,8 +32,9 @@
   
 
 <link rel="next" href="00-Preface.html"/>
-<script src="libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,16 +50,17 @@
 
 
 
-
 <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 <link rel="shortcut icon" href="classics-template-files/images/icon-blackletter.png">
 <!--- include Adobe Fonts web project stylesheet -->
-<link rel="stylesheet" href="https://use.typekit.net/uix0fgg.css">
+<link rel="stylesheet" href="https://use.typekit.net/faq7axi.css">
 <!--- Google Fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
 
 
 
@@ -103,7 +105,7 @@
 <div id="header">
 <h1 class="title">Holiness</h1>
 <p class="author"><em>J. C. Ryle</em></p>
-<p class="date" style="margin-top: 1.5em;"><em>1887?</em></p>
+<p class="date"><em>1887?</em></p>
 </div>
 <!--- Download the classics template files if not already available -->
 <!--- Include the classics frontmatter in the book -->
@@ -113,7 +115,7 @@
 <img src="classics-template-files/images/whitelogo-blackletter.png" width="50%" style="display: block; margin: auto;" />
 -->
 <p>Originally published as “This Is An Empty Book” in <em>Warhorn Classics Anthology</em> (Bayly, McNeilly, Weeks, et al, 2020), 219–283.</p>
-<p>Republished by <a href="https://classics.warhornmedia.com/">Warhorn Classics</a>—making classic Christian content available online for <span class="smallcaps">free</span> in high quality, readable formats.</p>
+<p>Republished by <a href="https://classics.warhornmedia.com/">Warhorn Classics</a>—making high-quality digital editions of classic Christian content available for free.</p>
 <p>The latest version of this book can always be found <a href="https://warhornmedia.github.io/ryle-holiness/">here</a> in many electronic formats for your reading convenience on any device.</p>
 <div id="downloads" class="section level4 unnumbered">
 <h4>Downloads</h4>
@@ -123,7 +125,7 @@
 </div>
 <div id="original" class="section level4 unnumbered">
 <h4>Original</h4>
-<p>Scanned images of the original printing of this book (our authoritative source) are available <a href="https://archive.org/details/HolinessJ.C.Ryle1887/page/n1/mode/2up">here</a>.</p>
+<p>Scanned images of this book (our authoritative source) are available <a href="https://archive.org/details/HolinessJ.C.Ryle1887/page/n1/mode/2up">here</a>. We generally choose source texts which were published as late as possible during the author’s lifetime.</p>
 <!--- Include the editorial notes (if the file exists)-->
 </div>
 <div id="text-status" class="section level4 unnumbered">
@@ -206,7 +208,6 @@
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -246,6 +247,10 @@ gitbook.start({
 "text": null
 },
 "download": ["Ryle-Holiness.pdf", "Ryle-Holiness.epub", "Ryle-Holiness.mobi"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection",
 "scroll_highlight": true
